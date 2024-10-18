@@ -1,0 +1,57 @@
+/* Style the form container */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Style labels */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="file"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+form input[type="submit"] {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add hover effect to the submit button */
+form input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+/* Style the textarea */
+form textarea {
+    height: 100px;
+}
+
+/* Add spacing between form fields */
+form input, form textarea {
+    margin-bottom: 15px;
+}
